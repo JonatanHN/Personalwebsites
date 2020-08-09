@@ -1,0 +1,376 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&family=Josefin+Sans:wght@700&family=Oswald:wght@600&family=Teko:wght@600&display=swap');
+
+/* font-family: 'Balsamiq Sans',
+cursive;
+font-family: 'Fredoka One',
+cursive;
+font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Oswald',
+sans-serif;
+font-family: 'Teko',
+sans-serif; */
+
+
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fredoka One',cursive;
+}
+/* Clases */
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a.opcions{
+    color: #222;
+    padding: 10px;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+a.opcions:hover{
+    color: #2ecc71; 
+    padding: 10px;
+    margin: 15px;
+    background: rgba(34,34,34, .7);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #222;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #2ecc71;
+}
+.menu-principal{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+img.logo{
+    width: 100px;
+    height: 100px;
+    background: rgba(34,34,34, .7);
+    border-radius: 99px;
+    padding: 10px;
+    margin: 15px;
+}
+.enlaces{
+    display: flex;
+    justify-content: space-evenly;
+}
+header.menu{
+    width: 100%;
+    height: 100vh;
+    background: rgb(34,34,34);
+    background: -webkit-linear-gradient(left, rgba(34,34,34,.7) 0%, rgba(34,34,34,.7) 50%, rgba(64,226,118,.7) 100%), url(../img/backgrounds/f2.jpg);
+    background: -o-linear-gradient(left, rgba(34,34,34,.7) 0%, rgba(34,34,34,.7) 50%, rgba(64,226,118,.7) 100%), url(../img/backgrounds/f2.jpg);
+    background: linear-gradient(to right, rgba(34,34,34,.7) 0%, rgba(34,34,34,.7) 50%, rgba(64,226,118,.7) 100%), url(../img/backgrounds/f2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#app{
+    font-family: 'Fredoka One',cursive;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.developer{
+    position: relative;
+    top: 150px; 
+    margin: 0px auto;
+}
+.Dev{
+    font-size: 70px;
+}
+.verificado{
+    color: #2ecc71;
+}
+.fa-vuejs{
+    font-size: 20px;
+}
+.grey{
+    color: #222;
+}
+.white{
+    color: #fff;
+    text-shadow: 2px 2px #222;
+}
+.separador{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.separador-top{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+.info-me{
+    width: 100%;
+    height: 100vh;
+    background-position: fixed;
+    background:url(../img/backgrounds/f1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+}
+.about{
+    width: 80%;
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+}
+.separador-text{
+    color: #2ecc71;
+    position: relative;
+    text-align: center;
+}
+.info-about{
+     position: relative;
+     top: 120px;
+     margin: 0px auto;
+     background:  rgba(34,34,34, .7);
+     border: 2px dashed #fff;
+     color: #fff;
+     border-radius: 9px;
+     width: 80%;
+     font-family: 'Teko',sans-serif;
+}
+.parrafo{
+    margin: 15px;
+}
+.o-1{
+    width: 100px;
+    position: relative;
+    top: -50px;
+    background: #333;
+    border-radius: 99px;
+    padding: 10px;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../img/backgrounds/webb-dark/one/webb-dark.png);
+    background-position: fixed;
+}
+.allform{
+    width:  80%;
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+.casillas{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Oswald',sans-serif;
+    border-radius: 9px;
+    border: 2px solid #222;
+    background: rgba(34,34,34, .8);
+    color: #2ecc71;
+}
+.send{
+    cursor: pointer;
+    background: #2ecc71;
+    border: 2px solid #222;
+    border-radius: 9px;
+    color: #222;
+}
+.send:hover{
+    background: #222;
+    border: 2px solid #2ecc71;
+    border-radius: 9px;
+    color: #2ecc71; 
+}
+#mapid{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.map{
+    width: 100%;
+    position: relative;
+}
+.endpage{
+    position: relative;
+    width: 100%;
+    height: 82vh;
+    background: url(../img/backgrounds/webb-dark/one/webb-dark.png);
+}
+.all-end{
+    position: relative;
+    top: 150px;
+    width: 80%;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+}
+.redes, .data{
+    width: 50%;
+    text-align: center;
+    color: #2ecc71;
+    flex-direction: column;
+    font-family: 'Teko',sans-serif;
+}
+.links-data{
+    margin: 5px;
+    color: #2ecc71;
+    font-family: 'Teko',sans-serif;
+}
+
+.me{
+    width: 150px;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.texto{
+    max-width: 99%;
+    min-height: 200px;
+    resize: none;
+}
+
+/*Resposive*/
+@media only screen and (max-width: 500px) {
+    .enlaces{
+        display: none;
+    }
+    h1.Dev{
+        font-size: 30px;
+    }
+    .developer{
+        position: relative;
+        top: 50px;
+    }
+    .two{
+        position: absolute !important;
+        bottom: -75px;
+    }
+    .info-about{
+        width: 90%;
+        height: 45%;
+    }
+    .text-info{
+        position: relative;
+        top: -30px;
+        font-size: 10px;
+    }
+    .not-found{
+        display: none;
+    }
+    /*formulario*/
+    .form{
+        position: relative;
+        top: -30px;
+        width: 80%;
+    }
+    .casillas{
+        margin: 5px;
+    }
+    .texto{
+        height: 100px;
+    }
+    .separador{
+        height: 120px !important;
+        margin: -1px;
+    }
+    .separador-top{
+        height: 120px !important;
+        margin: -1px;
+    }
+    .all-end{
+        flex-direction: column;
+        align-items: center;
+        background: url(../img/backgrounds/webb-dark/one/webb-dark.png);
+        position: relative;
+        width: 100%;
+        height: 130vh;        
+    }
+    .redes, .data{
+        width: 100%;
+    }
+    .endpage{
+        height: 100vh;
+        background-size: 100% 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+        .info-about{
+        width: 90%;
+        height: 45%;
+    }
+    .text-info{
+        position: relative;
+        top: -30px;
+        font-size: 15px;
+    }
+    .not-found{
+        display: none;
+    }
+    .form{
+        position: relative;
+        top: 30px;
+        width: 80%;
+    }
+    .separador{
+        height: 150px !important;
+        margin: -10px;
+    }
+    .separador-top{
+        height: 15s0px !important;
+        margin: -10px;
+    }
+    .casillas{
+        margin: 5px;
+    }
+    .texto{
+        height: 100px;
+    }
+    .all-end{
+        flex-direction: column;
+        align-items: center;
+        background: url(../img/backgrounds/webb-dark/one/webb-dark.png);
+        position: relative;
+        width: 100%;
+        height: 130vh;        
+    }
+    .redes, .data{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta name="description" content="Sitio de Desarrollo web"/>
+    <meta name="keywords" content="JonatanHN Desarrollando"/>
+    <meta name="author" content="JonatanHN" />
+    <meta name="copyright" content="by JonatanHN 2020"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:description" content="Sitio de Desarrollo web" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://jonatanhn.tk/assets/img/logos/cover.png" />
+    <!-- Styles -->
+    <link rel="stylesheet" 
+    href="assets/css/style.css">
+    <!-- Title -->
+    <title>Developer Frontend</title>
+    <!-- Favicon -->
+    <link rel="icon" 
+    href="assets/img/logos/profile.png">
+    <!-- Icons -->
+    <link rel="stylesheet" 
+    href="assets/icons/style.css">
+    <script src="https://kit.fontawesome.com/80fa7714d1.js" crossorigin="anonymous"></script>
+    <!-- map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+  </head>
+  <body>
+    <header class="menu">
+        <nav class="menu-principal">
+            <a href="#"><img src="assets/img/logos/profile.png" alt="" class="logo"></a>
+            <ul class="enlaces"id="url">
+                <a href="#" class="opcions">
+                    <li>
+                        <i class="fas fa-bars"></i> {{home}}
+                    </li>
+                </a>
+                <a href="#about" class="opcions">
+                    <li>
+                        <i class="far fa-user"></i> {{about}}
+                    </li>
+                </a>
+                <a href="#" class="opcions">
+                    <li>
+                        <i class="fas fa-users"></i> {{social}}
+                    </li>
+                </a>
+                <a href="#" onclick="alert('Proximamente');"
+                class="opcions">
+                    <li>
+                        <i class="fas fa-clipboard-check"></i> {{blog}}
+                    </li>
+                </a>
+                <a href="#contact" class="opcions">
+                    <li>
+                        <i class="fas fa-user-secret"></i> {{contacto}}
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <span class="white"><div id="app">
+        <div class="developer">
+        <h1 class="Dev">{{developer}}</h1>
+        <h2 class="information">{{information}}</h2>
+        <h3 class="date-site">
+            {{infoweb}} 
+        <i class="fab fa-vuejs verificado"></i>
+        </h3>
+        <h4 class="Welcome">{{author}} <span class=" icon-verified_user
+            verificado"></span></h4>
+        </div>
+        </div>
+        </span>
+    </header>
+        <div class="separador two" style="height: 150px; overflow: hidden;" ><svg
+           viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%;
+           width: 100%;"><path d="M-0.27,112.00 C504.79,10.36 -5.36,113.97
+           504.22,10.36 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;
+           fill: rgba(34,34,34, 1);"></path></svg>
+       </div>
+    <div class="info-me">
+        <div class="separador-top" style="height: 150px; overflow: hidden;"
+        ><svg
+           viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%;
+           width: 100%;"><path d="M-3.67,142.59 C-8.17,149.50 -4.22,143.58 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgba(34,34,34, 1);"></path></svg></div>
+        <div class="about" id="about">
+            <h2 class="separador-text">{{separadortext}} <i class="fas fa-code"></i></h2>
+            <div class="info-about">
+                <img src="assets/img/logos/profile.png" class="o-1" alt="">
+                <div class="text-info">
+                <h2>Mision Y Vision</h2>
+                <p class="parrafo">
+                    Hola visitante, Bienvenido a la web de JonatanHN, a partir
+                    de este momento empezare a comentarte como esta clasificado
+                    este sitio, la idea de este sitio es para trabajar como
+                    freelance, crear proyectos con la eficiencia y capacidad de
+                    lograr un expandimiento laborar e empresarial, para cumplir
+                    y realizar proyectos que hagan el cambio.
+                </p>
+                <p class="parrafo not-found">
+                    Antes que nada, darte la bienvenida y me presento, soy un
+                    desarrollador frontend, me dedico al diseño de paginas
+                    estaticas profecionales, actualmente trabajo como freelance
+                    (Desarrollador por trabajo eventual), Me gustaria ayudarte
+                    a cumplir tus sueños y metas, Me interesa mucho la opinion
+                    de mis clientes a la hora de desarrollar, Me gusta escuchar
+                    y leer comentarios para poder progresar en esto, dado a que
+                    sigo trabajando actualmente con proyectos pequeños para un
+                    crecimiento en conocimiento autodidacta, soy un chico de 21
+                    años y estoy diplomado en developer frontend por el startup
+                    de [Hackter].
+                    <br>
+                    Sin mas por decir estoy agradecido por tomarte el tiempo de
+                    leer todo esto, y espero nazca en ti la idea de emprender tu
+                    negocio.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="separador" style="height: 150px; overflow: hidden;" ><svg
+           viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%;
+           width: 100%;"><path d="M-0.27,112.00 C504.79,10.36 -5.36,113.97
+           504.22,10.36 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;
+           fill: rgba(34,34,34, 1);"></path></svg>
+       </div>
+    </div>
+    <div class="map" id="map">
+        <div class="separador-top" 
+        style="height: 150px;overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height:100%;width: 100%;"><path d="M-3.67,142.59 C-8.17,149.50 -4.22,143.58 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" 
+        style="stroke: none; fill: rgba(34,34,34, 1);"></path></svg></div>
+        <h2 class="separador-text">{{separadortext}}  <i class="fas fa-map-signs"></i></h2>
+        <div id="mapid"></div>
+        <div class="separador" style="height: 150px; overflow: hidden;" ><svg
+           viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%;
+           width: 100%;"><path d="M-0.27,112.00 C504.79,10.36 -5.36,113.97
+           504.22,10.36 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;
+           fill: rgba(34,34,34, 1);"></path></svg>
+       </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="separador-top" 
+        style="height: 150px;overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height:100%;width: 100%;"><path d="M-3.67,142.59 C-8.17,149.50 -4.22,143.58 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" 
+        style="stroke: none; fill: rgba(34,34,34, 1);"></path></svg></div>
+        <h2 class="separador-text">{{separadortext}} <i class="fas fa-file-signature"></i></h2>
+        <div class="allform">
+        <form action="" class="form" method="post" id="contactame">
+            <input type="text" placeholder="Asunto" name="Asunto" class="casillas" required>
+            <input type="email" placeholder="Email" name="Email" class="casillas" required>
+            <textarea name="info" id="info" cols="30" rows="10"
+            class="casillas texto" placeholder="Escribe tu mensaje >>> Por favor al escribir tu mensaje ingresa tu nombre ej: Jonatan Hernandez, Necesito una web [datos], presupuesto." required name="Mensaje"></textarea>
+            <button type="submit" class="send casillas">Enviar <i class="fas fa-paper-plane"></i></button>
+        </form>
+        </div>
+        <div class="separador" style="height: 150px; overflow: hidden;" ><svg
+           viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%;
+           width: 100%;"><path d="M-0.27,112.00 C504.79,10.36 -5.36,113.97
+           504.22,10.36 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;
+           fill: rgba(34,34,34, 1);"></path></svg>
+       </div>
+    </div>
+    <div class="endpage" id="endpage">
+         <div class="separador-top" 
+        style="height: 150px;overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height:100%;width: 100%;"><path d="M-3.67,142.59 C-8.17,149.50 -4.22,143.58 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" 
+        style="stroke: none; fill: rgba(34,34,34, 1);"></path></svg></div>
+        <h2 class="separador-text">{{separadortext}} <i class="fas fa-info-circle"></i></h2>
+        <div class="all-end">
+            <div class="redes">
+                <h3 class="redes-title"><i class="fas fa-users"></i>
+                {{socials}}</h3>
+                <a onclick="alert('No se puede Trasladar a spotify por el momento Gracias!!');" class="links-data">
+                    <li>
+                        <p>{{sp}} <i class="fab fa-spotify"></i></p>
+                    </li>
+                </a>
+                <a href="https://facebook.com/jonatanhn00" target="_blank" class="links-data">
+                    <li>
+                        <p>{{fb}} <i class="fab fa-facebook"></i></p>
+                    </li>
+                </a>
+                <a href="https://twitter.com/jonatanhn00" target="_blank" class="links-data">
+                    <li>
+                        <p>{{twt}} <i class="fab fa-twitter-square"></i></p>
+                    </li>
+                </a>
+                <a href="https://youtube.com/channel/UCZbOo5XlsjFuROgPrLmRRGQ" target="_blank" class="links-data">
+                    <li>
+                        <p>{{yt}} <i class="fab fa-youtube"></i></p>
+                    </li>
+                </a>
+                <a onclick="alert('No se puede Trasladar a discord por el momento Gracias!!');" target="_blank" class="links-data">
+                    <li>
+                        <p>{{ds}} <i class="fab fa-discord"></i></p>
+                    </li>
+                </a>
+                <a href="https://instagram.com/jonatanhn00" target="_blank" class="links-data">
+                    <li>
+                        <p>{{ig}} <i class="fab fa-instagram-square"></i></p>
+                    </li>
+                </a>
+                <a onclick="alert('No se puede Trasladar a Mastodon por el momento Gracias!!');" target="_blank" class="links-data">
+                    <li>
+                        <p>{{mdn}} <i class="fab fa-mastodon"></i></p>
+                    </li>
+                </a>
+            </div>
+            <div class="data">
+                <h3 class="data-info"><i class="fas fa-info-circle"></i>
+                    {{datame}}</h3>
+                <img src="assets/img/me/yo.png" alt="" class="me">
+                <p>{{name}}</p>
+                <p>{{edad}}</p>
+                <p>{{correo}}</p>
+                <p>{{ciudad}}</p>
+                <p>{{puesto}}</p>
+                <br>
+                <h4>&copy {{copy}}</h4>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- production version, optimized for size and speed -->
+    <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
+    <script src="assets/js/vue-extension.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <script src="assets/js/map.js"></script>
+  </body>
+</html>

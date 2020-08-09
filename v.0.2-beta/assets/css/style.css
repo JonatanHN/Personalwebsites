@@ -1,0 +1,315 @@
+/*  <== Fuentes ==>  */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&family=Josefin+Sans:wght@700&family=Oswald:wght@600&family=Teko:wght@600&display=swap');
+
+/* font-family: 'Balsamiq Sans',
+cursive;
+font-family: 'Fredoka One',
+cursive;
+font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Oswald',
+sans-serif;
+font-family: 'Teko',
+sans-serif; */
+
+
+
+/*  <== Universales ==>  */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	outline: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Teko',sans-serif;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  display: none;
+}
+/*  <== Clases ==>  */
+
+.lading
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background: rgb(34,34,34);
+    background: rgb(34,34,34);
+	background: radial-gradient(circle, rgba(34,34,34,.5) 0%, rgba(34,34,34,.5) 50%, rgba(64,226,118,.5) 100%), url(../img/backgrounds/f2.jpg);	
+	background-size: 100% 100%;
+}
+.nav-desktop{
+	position: relative;
+	top: -0px;
+	width: 80%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+.nav-desktop > img {
+	margin: 20px auto;
+}
+.navegacion{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Fredoka One',cursive;
+}
+.logo{
+	width: 150px;
+	background: rgba(34,34,34, .7);
+	border-radius: 99px;
+}
+.link-nav{
+ 	color: #2ecc71;
+ 	padding: 10px;
+ 	font-size: 15px;
+ 	transition: all .3s;
+ 	border-bottom: 2px solid rgba(46,204,113, .0);
+ 	text-shadow: 2px 2px #222;
+ 	transition: all 2s;
+}
+.link-nav:hover{
+	color: #222;
+	border-bottom: 2px solid #2ecc71;
+	text-shadow: 1px 1px 5px rgb(46,204,113);
+}
+.about{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: url(../img/backgrounds/f1.jpg);
+	background-size: 100% 100%;
+}
+.section-name{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	color: #2ecc71;
+	margin: 20px 30px;
+	border-radius: 9px;
+}
+.namesection{
+	font-size: 20px;
+}
+.dataname{
+	width: 40px;
+	border-radius: 12px;
+	border: 2px solid rgb(46,204,113);
+	background: rgb(248,248,248, .2);
+	margin-right: 15px;
+	padding: 5px;
+}
+.up-button{
+	border-radius: 99px;
+	border: 2px solid #222;
+	padding: 5px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+}
+.subir{
+	width: 30px;
+}
+div.fijo{
+	position: relative;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1;
+}
+.go{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 130px;
+	font-family: 'Josefin Sans',sans-serif;
+	background: rgba(34,34,34, .7);
+	text-shadow: 2px 2px #222;
+	padding: 20px 0px;
+	color: #2ecc71;
+	border-top: 2px solid #2ecc71;
+	border-bottom: 2px solid #2ecc71;
+}
+.me-info{
+	width: 100px;
+	margin: 0px auto;
+}
+.me{
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	padding: 20px;
+}
+.me > .parrafo{
+	font-family: 'Fredoka One',cursive;
+	margin: 15px;
+}
+.separador{
+	width: 100%;
+	border-top: 2px solid #222;
+	border-bottom: 2px solid #222;
+}
+.portafolio{
+	width: 100%;
+	height: 100vh;
+	background: #222;
+	color: #2ecc71;
+}
+.packages{
+	width: 100%;
+	height: 100vh;
+}
+.full-portafolio{
+	position: relative;
+	top: 300px;
+	width: 80%;
+	margin: 0px auto;
+	display: flex;
+}
+.title,
+.info-portafolio{
+	width: 50%;
+	text-align: center;
+}
+.btn-one{
+	position: relative;
+	width: 50%;
+	padding: 10px;
+	font-size: 20px;
+	margin: 10px 20px;
+	border: 2px solid #222;
+	border-radius: 9px;
+	cursor: pointer;
+	background: #2ecc71;
+	color: #222;
+}
+.btn-one:hover{
+	background: #222;
+	color: #2ecc71;
+	border: 2px solid #2ecc71;
+}
+.price-packages{
+	width: 100%;
+	height: 100vh;
+}
+.tables{
+	position: relative;
+	top: 100px;
+	margin: 0px auto;
+	display: flex;
+	width: 90%;
+	height: 500px;
+}
+.price-tables{
+	width: 30%;
+	box-shadow: 5px 5px 10px #222;
+	margin: 10px;
+	border-radius: 9px;
+	background: #222;
+}
+.endpage{
+	width: 100%;
+	height: 100vh;
+}
+#map{
+	width: 100%;
+	height: 50%;
+	z-index: -1;
+	border-top: 4px solid #2ecc71;
+}
+.enlaces{
+	width: 100%;
+	height: 10%;
+	background: #222;
+	border-top: 2px solid #2ecc71;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.icons{
+	font-size: 25px;
+	color: #2ecc71;
+}
+.end{
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	background: #222;
+	border-top: 2px solid #2ecc71;
+}
+.leaflet-bar{
+	display: none !important;
+}
+.leaflet-control-attribution{
+	display: none !important;
+}
+.data-footer{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 130px auto;
+}
+.form-contact{
+	width: 90%;
+}
+.me-data{
+	width: 100%;
+}
+.formulario{
+	display: flex;
+	width: 60%;
+	margin: 0px auto;
+}
+.data{
+	position: relative;
+	width: 50%;
+	margin: 10px auto;
+	margin-left: 10px;
+	font-family: 'Fredoka One',cursive;
+}
+.camps-form{
+	padding: 10px;
+	border: none;
+	border-left: 2px solid #fff;
+	background: #333;
+	color: #2ecc71;
+
+}
+.camps-form:focus{
+	border-left: 2px solid #2ecc71;
+	transition: all .5s;
+}
+.mensaje{
+	resize: none;
+}
+.send-data{
+	background: #2ecc71;
+	border: 2px solid #2ecc71;
+	cursor: pointer;
+}
+.send-data:hover{
+	background: #222;
+	color: #2ecc71;
+}
+.send-data-form{
+	text-align: center;
+	color: #fff;
+}

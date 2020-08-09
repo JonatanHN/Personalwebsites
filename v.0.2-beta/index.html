@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- metadatos -->
+<meta name="description" content="Sitio de Desarrollo web"/>
+<meta name="keywords" content="JonatanHN Desarrollando"/>
+<meta name="author" content="JonatanHN" />
+<meta name="copyright" content="by JonatanHN 2020"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:description" content="Sitio de Desarrollo web" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://jonatanhn.tk/assets/img/logos/cover.png" />
+<!-- title -->
+<title>Dev JonatanHN</title>
+<!-- styles -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- favicon -->
+<link rel="icon" href="assets/img/logos/profile.png">
+<!-- smoothscroll -->
+<script src="assets/js/scroll.min.js"></script>
+<script src="assets/js/index.js"></script>
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/80fa7714d1.js" crossorigin="anonymous"></script>
+<!-- leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+</head>
+<body>
+<!-- inicio -->
+<div class="lading" id="inicio">
+<div class="nav-desktop" id="navdesk">
+<img src="assets/img/logos/profile.png" 
+class="logo">
+<nav class="navegacion">
+<a class="link-nav" href="#">
+<li>{{home}}</li>
+</a>
+<a class="link-nav" href="#aboutme">
+<li>{{about}}</li>
+</a>
+<a class="link-nav" href="#portafolio">
+<li>{{portafolio}}</li>
+</a>
+<a class="link-nav" href="#price">
+<li>{{packages}}</li>
+</a>
+<a class="link-nav" href="#map">
+<li>{{map}}</li>
+</a>
+<a class="link-nav" href="#end">
+<li>{{contact}}</li>
+</a>
+</nav>
+</div>
+</div>
+<!-- end inicio -->
+<!-- start about -->
+<div class="about" id="aboutme">
+<div class="section-name">
+<lottie-player class="dataname" src="json-icons/me.json"  background="transparent"  speed=".5"  loop autoplay></lottie-player>
+<h4 class="namesection">{{namesection}}</h4> 
+</div>
+<div class="container-infome">
+	<div class="go">
+	<img src="assets/img/logos/profile.png" class="me-info" alt="">
+	<div class="me">
+		<h2>Mision Y Vision</h2>
+		<p class="parrafo">
+		Hola visitante, Bienvenido a la web de JonatanHN, a partir
+          de este momento empezare a comentarte como esta clasificado
+          este sitio, la idea de este sitio es para trabajar como
+          freelance, crear proyectos con la eficiencia y capacidad de
+          lograr un expandimiento laborar e empresarial, para cumplir
+          y realizar proyectos que hagan el cambio.  
+        </p>
+        <p class="parrafo">
+        Antes que nada quiero darte la bienvenida y para poder seguir me presento, soy un
+          desarrollador frontend, me dedico al diseño de paginas
+          estaticas profecionales, actualmente trabajo como freelance
+          (Desarrollador por trabajo eventual), Me gustaria ayudarte
+          a cumplir tus sueños y metas, Me interesa mucho la opinion
+          de mis clientes a la hora de desarrollar, Me gusta escuchar
+          y leer comentarios para poder progresar en esto, dado a que
+          sigo trabajando actualmente con proyectos pequeños para un
+          crecimiento en conocimiento autodidacta, soy un chico de 21
+          años y estoy diplomado en developer frontend por el startup
+          de [Hackter].
+        </p>
+        <p class="parrafo">
+          Sin mas por decir estoy agradecido por tomarte el tiempo de
+          leer todo esto, y espero nazca en ti la idea de emprender tu
+          negocio.
+        </p>
+	</div>
+</div>
+</div>
+</div>
+<!-- end about -->
+<!-- kit developer -->
+<div class="portafolio" id="portafolio">
+ <div class="section-name">
+	<lottie-player class="dataname" src="json-icons/portafolio.json"  background="transparent"  speed=".5"  loop autoplay></lottie-player>
+	<h4 class="namesection">{{namesection}}</h4> 
+  </div>
+  <div class="full-portafolio">
+		<h2 class="title">
+		{{title}}
+		<br>
+		{{tecnologias}}
+		<br>
+		<a href="">
+			<button class="btn-one">
+				<i class="fas fa-link"></i>
+			</button>
+		</a>
+		</h2>
+		<div class="info-portafolio">
+		<h2>
+		{{sugerencias}}
+		<br>
+		{{contacto}}
+		<br>
+		</h2>
+		<a href="">
+			<button class="btn-one">
+				<i class="fas fa-arrow-circle-down"></i>
+			</button>
+		</a>
+	</div>
+	</div>
+</div>
+<!-- end portafolio -->
+<div class="price-packages" id="price">
+	<div class="section-name">
+	<lottie-player class="dataname" src="json-icons/price.json"  background="transparent"  speed=".5"  loop autoplay></lottie-player>
+	<h4 class="namesection">{{namesection}}</h4> 
+  	</div>
+  	<div class="tables">
+  		<div class="price-tables">
+  			
+  		</div>
+  		<div class="price-tables">
+  			
+  		</div>
+  		<div class="price-tables">
+  			
+  		</div>
+  	</div>
+</div>
+<div class="endpage">
+	<div id="map"></div>
+	<div class="enlaces">
+		<a href="" class="icons">
+			<i class="fab fa-facebook"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-twitter"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-youtube"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-discord"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-instagram"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-spotify"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-telegram"></i></a>
+		<a href="" class="icons">
+			<i class="fab fa-mastodon"></i></a>
+	</div>
+	<footer class="end" id="end">
+	<div class="section-name">
+	<lottie-player class="dataname" src="json-icons/dashboard.json"  background="transparent"  speed=".5"  loop autoplay></lottie-player>
+	<h4 class="namesection">{{namesection}}</h4> 
+  	</div>
+  	<div class="data-footer">
+  		<div class="form-contact">
+  			<h2 class="send-data-form">
+  				Contactame
+  			</h2>
+  			<form action="" class="formulario">
+  				<input type="text" placeholder="Asunto" class="data camps-form">
+  				<input type="email" placeholder="Email" class="data camps-form">
+  				<button type="submit" class="send-data data">Enviar</button>
+  			</form>
+  			<br>
+  			<h3 class="send-data-form">
+  				Todos los derechos reservados por el dueño y creador de este sitio &copy 2020 <a href="">JonatanHN</a>
+  			</h3>
+  		</div>
+  	</div>
+	</footer>
+</div>
+<!-- button home -->
+<div class="fijo">
+<a href="#inicio"><button class="up-button"><lottie-player class="subir" src="json-icons/scroll.json"  background="transparent"  loop autoplay></lottie-player></button></a>
+</div>
+<!-- Vuejs -->
+<script src="https://cdn.jsdelivr.net/npm/vue">
+</script><!-- Version Production -->
+<!-- Vuejs script for me -->
+<script src="assets/js/vue.js"></script>
+<!-- Map Leaflet -->
+<script src="assets/js/map.js"></script>
+<!-- Script for me -->
+
+<!-- jquery -->
+<script src="assets/js/jquery.js"></script>
+<!-- Animation's of icons -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
