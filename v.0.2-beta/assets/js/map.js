@@ -4,7 +4,7 @@ setView([20.6737777, -103.405454],
 9);
 L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token={accessToken}', {
 maxZoom: 19,
-accessToken: 'cBeIZ2HYs5Duh3k3DHECOc7Aswo9GGvzQzE5icAyNATKMb0xXIrNnyQ7grQGtSbf'
+accessToken: 'xxxApiTOKENxxx'
 }).addTo(map);
 var iconJHN = L.icon({
     iconUrl: 'https://jonatanhn.tk/assets/img/punto.png',
